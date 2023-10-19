@@ -1,0 +1,24 @@
+ul {
+  color: white;
+  padding-right: 18px;
+}
+.navigasi {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+.navigasi {
+  list-style-type: none;
+  padding: 15px;
+  font-size: 25px;
+}
+.navigasi > li > a:hover {
+  color: red;
+  transition: all 0.5 ease-in-out;
+}
+.navigasi > li > a {
+  text-decoration: none;
+  color: white;
+  margin-right: 10px;
+}
